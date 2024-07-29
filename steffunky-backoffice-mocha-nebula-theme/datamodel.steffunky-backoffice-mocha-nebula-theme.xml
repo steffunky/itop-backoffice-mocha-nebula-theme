@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.1">
+  <branding>
+    <themes>
+      <theme id="mocha-nebula" _delta="define">
+        <variables>
+        </variables>
+        <imports>
+          <import id="catppuccin-scss-variables" xsi:type="variables">steffunky-backoffice-mocha-nebula-theme/node_modules/@catppuccin/palette/scss/_mocha.scss</import>
+          <import id="dark-theme-base" xsi:type="variables">steffunky-backoffice-dark-theme-base/scss/base.scss</import>
+          <import id="scss-variables" xsi:type="variables">steffunky-backoffice-mocha-nebula-theme/scss/scss-variables.scss</import>
+        </imports>
+        <stylesheets>
+          <stylesheet id="fullmoon">../css/backoffice/main.scss</stylesheet>
+          <stylesheet id="dark-stylesheet">steffunky-backoffice-dark-theme-base/scss/stylesheet.scss</stylesheet>
+          <stylesheet id="style">steffunky-backoffice-mocha-nebula-theme/scss/style.scss</stylesheet>
+          <stylesheet id="ckeditor">steffunky-backoffice-dark-theme-base/scss/ckeditor.scss</stylesheet>
+          <stylesheet id="aceeditor">steffunky-backoffice-mocha-nebula-theme/scss/ace_editor.scss</stylesheet>
+        </stylesheets>
+        <precompiled_stylesheet>steffunky-backoffice-mocha-nebula-theme/precompiled-themes/main.css</precompiled_stylesheet>
+      </theme>
+    </themes>
+  </branding>
+</itop_design>

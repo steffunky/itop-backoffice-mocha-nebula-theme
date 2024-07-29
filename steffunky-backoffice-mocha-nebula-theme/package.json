@@ -1,0 +1,7 @@
+{
+  "name": "mocha-nebula-theme",
+  "dependencies": {
+    "@catppuccin/palette": "^1.1.1",
+    "celestial-latte-theme": "file:"
+  }
+}
